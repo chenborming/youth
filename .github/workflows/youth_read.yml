@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   # 账号越多文章越多，运行一次消耗的时间也越长，文章和视频不要一块运行，cron自己看着写
   schedule:
-     - cron: '10 1-10/3 * * *'
+     - cron: '1 16-23/3 * * *'
   watch:
     types: started
 jobs:
